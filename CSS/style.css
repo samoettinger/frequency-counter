@@ -1,0 +1,110 @@
+body{
+     font-family: 'Lato', sans-serif;
+     background-color: #ebebeb;
+     padding: 30px 30px;
+     display: flex;
+     flex-direction: column;
+}
+
+body h1{
+     font-family: 'Alfa Slab One', sans-serif;
+     font-size: 5vw;
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+body textarea{
+     color: #444444;
+     font-family: 'Lato', sans-serif;
+
+     height: 200px;
+     width: 80%;
+     margin: auto;
+
+     border: 1px solid #444444;
+     border-radius: 5px;
+     padding: 20px;
+     box-sizing: border-box;
+}
+
+body button{
+     height: 50px;
+     width: 200px;
+     font-family: 'Alfa Slab One',sans-serif;
+
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+     border: 1px solid #444444;
+     border-radius: 10px;
+     outline: none;
+     cursor: pointer;
+}
+
+body #divLetters{
+     background-color: #c5c5c5;
+     box-sizing: border-box;
+     padding: 20px;
+
+     border: 1px solid #444444;
+     border-radius: 10px;
+     width: 80%;
+     margin: auto;
+     
+     display: flex;
+     flex-wrap: wrap;
+}
+
+body #divLetters span{
+  flex-basis: 25%;
+  text-align: center;
+  line-height: 25px;
+}
+
+body #divWords{
+     background-color: #c5c5c5;
+     box-sizing: border-box;
+     padding: 20px;
+
+     border: 1px solid #444444;
+     border-radius: 10px;
+     width: 80%;
+     margin: auto;
+     
+     display: flex;
+     flex-wrap: wrap;
+}
+
+body #divWords span{
+     flex-grow: 1;
+     flex-basis: auto;
+     text-align: left;
+     line-height: 25px;
+     margin-right: 10px;
+}
+
+@media screen and (min-width: 600px) {
+     
+     body button{
+          height: 50px;
+          width: 60%;
+          font-family: 'Alfa Slab One',sans-serif;
+     
+          margin: auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
+     
+          border: 1px solid #444444;
+          border-radius: 10px;
+          outline: none;
+          cursor: pointer;
+     }
+
+     body #divLetters span{
+          flex-basis: 20%;
+          text-align: center;
+          line-height: 25px;
+        }
+
+}
